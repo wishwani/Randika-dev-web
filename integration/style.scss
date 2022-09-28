@@ -1,0 +1,249 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    /*
+        Getting rid of default formatting for <a> elements. `inherits` tells that
+        `a` elements should use the value set on its parent for these properties.
+    */
+    text-decoration: inherit;
+    color: inherit;
+}
+.logo{
+	align-items: center;
+	height: 30px;
+	width: 180px;
+    margin-top: 20px;
+}
+.menu{
+    height: 75px;
+}
+.header {
+	background-color: white;
+    height: 75px;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 1070px;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-left {
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 400px;
+}
+.header-right {
+    align-items: center;
+    margin-top: 20px;
+}
+.button-left {
+    font-size: 14px;
+	color: black;
+	border: none;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	&:hover {
+		background-color: #eee;
+	}
+    &.active {
+		background-color: #eee;
+	}
+}
+.button-right {
+	font-size: 14px;
+	color: white;
+	border: none;
+	border-radius: 25px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	background-color: green;
+	&:hover {
+		background-color: #47752d;
+	}
+    &.active {
+		background-color: #47752d;
+	}
+}
+.content {
+	background-color: #ebebeb;
+	size: 100%;
+}
+.menu-item1 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 18px;
+	color: #1b1b1b;
+	&:hover {
+		background-color: #72ac51;
+	}
+    &.active {
+		background-color: #72ac51;
+    }
+	
+}
+.menu-item2 {
+	padding: 20px;
+	font-size: 18px;
+	color: #1b1b1b;
+	&:hover {
+		background-color: #72ac51;
+	}
+    &.active {
+		background-color: #72ac51;
+    }
+}
+.menu-item3 {
+	padding: 20px;
+	font-size: 18px;
+	color: #1b1b1b;
+	&:hover {
+		background-color: #72ac51;
+	}
+    &.active {
+		background-color: #72ac51;
+    }
+}
+.navbar {
+	width: 250px;
+	background-color: white;
+	margin-top: 20px;
+	height: 173px;
+}
+.menu-item1topic {
+	width: 802.5px;
+}
+.menu-itemtopic-content {
+	align-content: center;
+	font-size: 36px;
+	padding-left: 100px;
+	padding-top: 50px;
+	height: 100px;
+}
+.menu-item1cont1 {
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.menu-item1cont2 {
+	font-size: 15px;
+	padding-left: 30px;
+}
+.ContentPanel1 {
+	display: flex;
+	justify-content: space-between;
+	width: 1070px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #ebebeb;
+	height: calc(100vh - 75px);
+}
+.ContentPanel2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 802.5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.card1 {
+	width: fit-content;
+	margin-left: 0%;
+	background-color: white;
+}
+.card2 {
+	width: fit-content;
+	background-color: white;
+	margin-left: 20px;
+}
+.card3 {
+	width: 570px;
+    height:380px;
+	background-color: white;
+	margin-left: 450px;
+    margin-top: 20px;
+
+}
+.card3-item1cont1{
+    padding-top: 67px;
+    padding-left: 60px;
+    font-size: 32px;
+}
+.logindet1{
+    
+    padding-left: 20px;
+    margin-left: 60px;
+    font-size: 16px;
+    width: 430px;
+    height: 45px;
+}
+.logindet2{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+    font-size: 16px;
+    width: 430px;
+    height: 45px;
+}
+
+.card3-item1cont3{
+    
+    padding-left: 60px;
+    font-size: 16px;
+    width: 450px;
+    height: 45px;
+}
+
+.submit{
+    margin-top: 20px;
+    align-content: center;
+    font-size: 14px;
+    width: 450px;
+    height: 42px;
+    margin-bottom: 60px;
+    margin-left: 60px;
+    border-radius: 25px;
+    background-color:  #72ac51;
+    border: none;
+    color: white;
+}
+.contentlogin{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ebebeb;
+    height: calc(100vh - 75px);
+}
+.menu-item2cont1 {
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+.menu-item2cont2 {
+	font-size: 15px;
+	padding-left: 30px;
+}
+.logindet1:invalid{
+    outline: none;
+    border: red 2px solid;
+}
+
+.logindet2:focus{
+    outline: none;
+    border: green 2px solid;
+}
+
+
+
