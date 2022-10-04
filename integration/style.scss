@@ -186,6 +186,13 @@ a {
     font-size: 16px;
     width: 430px;
     height: 45px;
+	&:focus{
+		outline-color: green;
+	}
+	&:invalid{
+		outline-color: red;
+	}
+	
 }
 .logindet2{
     padding-left: 20px;
@@ -194,6 +201,13 @@ a {
     font-size: 16px;
     width: 430px;
     height: 45px;
+	&:focus{
+		outline-color: green;
+	}
+	&:invalid{
+		outline-color: red;
+	}
+	
 }
 
 .card3-item1cont3{
@@ -235,15 +249,7 @@ a {
 	font-size: 15px;
 	padding-left: 30px;
 }
-.logindet1:invalid{
-    outline: none;
-    border: red 2px solid;
-}
 
-.logindet2:focus{
-    outline: none;
-    border: green 2px solid;
-}
 
 
 

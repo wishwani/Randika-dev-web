@@ -208,6 +208,12 @@ a {
   width: 430px;
   height: 45px;
 }
+.logindet1:focus {
+  outline-color: green;
+}
+.logindet1:invalid {
+  outline-color: red;
+}
 
 .logindet2 {
   padding-left: 20px;
@@ -216,6 +222,12 @@ a {
   font-size: 16px;
   width: 430px;
   height: 45px;
+}
+.logindet2:focus {
+  outline-color: green;
+}
+.logindet2:invalid {
+  outline-color: red;
 }
 
 .card3-item1cont3 {
@@ -257,16 +269,6 @@ a {
 .menu-item2cont2 {
   font-size: 15px;
   padding-left: 30px;
-}
-
-.logindet1:invalid {
-  outline: none;
-  border: red 2px solid;
-}
-
-.logindet2:focus {
-  outline: none;
-  border: green 2px solid;
 }
 
 /*# sourceMappingURL=output.css.map */
